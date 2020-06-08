@@ -1,5 +1,5 @@
 //
-// Copyright 2020 Wireline, Inc.
+// Copyright 2020 DXOS.
 //
 
 export const truncateString = (str = '', n = 3) => {
