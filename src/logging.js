@@ -31,7 +31,7 @@ export const logError = str => {
  * @return {{ log: debug, error: debug }}
  */
 // TODO(burdon): Rename.
-export function logs(name) {
+export function logs (name) {
   const log = debug(name);
   log.log = console.log.bind(console);
 
