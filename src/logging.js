@@ -56,3 +56,27 @@ export function logs (name) {
     }
   };
 }
+
+
+/**
+ * Expose 'debug' module's selective log namespace capabilities by delegation.
+ * Allows runtime enable/disable of individual namespaces, or regexes thereof.
+ */
+/**
+	* Enables a debug mode by namespaces. This can include modes
+	* separated by a colon and wildcards.
+	*
+	* @param {String} namespaces
+	*/
+export function enable(namespaces) {
+  debug.enable(namespaces);
+}
+
+/**
+	* Disable all namespaces, return previously enabled namespaces.
+	*
+	* @return {String} namespaces
+	*/
+export function disable() {
+  return debug.disable();
+}
