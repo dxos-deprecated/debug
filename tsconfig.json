@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": [
+      "ESNext"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "target": "ES2017",
+    "outDir": "dist"
+  },
+  "include": [
+    "src"
+  ]
+}
