@@ -16,6 +16,10 @@
     "prepublishOnly": "npm run build && npm run test",
     "test": "jest --rootDir ./src --verbose --passWithNoTests"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "debug": "^4.1.1"
   },
